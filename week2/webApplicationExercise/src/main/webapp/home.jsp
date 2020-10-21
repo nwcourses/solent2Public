@@ -11,6 +11,8 @@
 <%@ page import="org.solent.com504.oodd.week2.model.ShoppingCart" %>
 <%@ page import="org.solent.com504.oodd.week2.model.ShoppingItem" %>
 <%@ page import="org.solent.com504.oodd.week2.web.WebObjectFactory"%>
+<% int a = 3; %>
+<h1>The value of variable a is; <%=a %></h1>
 <%
     request.setAttribute("selectedPage", "home");
     String message="";
